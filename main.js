@@ -13,8 +13,6 @@ getInput.addEventListener('input', function () {
     for (var i = 0; i < getDrinkTitle.length; i++) {
         var drinkTitle = getDrinkTitle[i].innerHTML.toUpperCase();
 
-
-
         if (drinkTitle.includes(inputValue)) {
             getDrinkTitle[i].parentElement.style.display = "block";
         }
